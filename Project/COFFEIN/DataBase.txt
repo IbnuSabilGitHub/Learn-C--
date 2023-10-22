@@ -1,0 +1,8 @@
+1.Black Coffee                       --bc=7000
+2.White Coffee                      --wc=7000
+3.Nescafé                               --ne=10000
+4.Indocafé                              --in=5000
+5.Torabika Cappuccino       --tc=9000
+6.Good Day                            --gd=7000
+7.Starbucks Frappuccino    --sf=50000
+8.ABC Hejo Green Coffee  --ab =12000

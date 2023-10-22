@@ -1,0 +1,22 @@
+Name : Nahida
+Pesanan : --tc
+JumlahPesanan : --tc
+Alamat : Sumeru,
+total : 27000
+Name : Raiden
+Pesanan : --bc
+JumlahPesanan : --bc
+Alamat : Inzuma
+total : 35000
+Name : ibnu
+Pesanan : --bc
+JumlahPesanan : --bc
+Alamat : kalimantan
+total : 14000
+------------------------
+Name : --bc
+Pesanan : --bc
+JumlahPesanan : --bc
+Alamat : kon
+total : 28000
+------------------------
