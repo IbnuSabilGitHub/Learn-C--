@@ -5,7 +5,9 @@ Alamat : Sumeru,
 total : 27000
 Name : Raiden
 Pesanan : --bc
-JumlahPesanan : --bc
+JumlahP--bc
+Pesanan : --bc
+JumlahPesesanan : --bc
 Alamat : Inzuma
 total : 35000
 Name : ibnu
@@ -14,9 +16,13 @@ JumlahPesanan : --bc
 Alamat : kalimantan
 total : 14000
 ------------------------
-Name : --bc
-Pesanan : --bc
-JumlahPesanan : --bc
+Name : anan : --bc
 Alamat : kon
 total : 28000
+------------------------
+Name : ibnu
+Pesanan : --bc
+JumlahPesanan : --bc
+Alamat : kkk
+total : 21000
 ------------------------

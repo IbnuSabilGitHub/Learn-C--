@@ -21,6 +21,8 @@ int searchDataHarga(string &Input, int count);
 int main()
 {
 
+
+    system("cls");
     char yn;
 
     cout << "Ingin belanja? y/n : ";
@@ -47,24 +49,38 @@ int main()
 
             string command;
             cout << "Selamat datang " << dataPw << endl;
+
+            int countValidatiom = 0;
             do
             {
+                if(countValidatiom > 5){
+                    goto help; // Lompat ke kondisi help
+                }
+                cmd:
                 cout << "Input Command : ";
                 cin >> command;
 
-            } while (command != "help" && command != "input" && command != "delete");
+                countValidatiom++;
+            } while (command != "help" && command != "input" && command != "delete" &&
+                     command != "-h" && command != "-i" && command != "-d");
 
-            if (command == "help")
+            if (command == "help" || command == "-h")
             {
-                cout << "Help     -h          untuk memunculkan Commad yang bisa dilakukan" << endl;
+                help://Goto Help
+
+                countValidatiom = countValidatiom - countValidatiom; //Reset nilai count
+                cout << "Help              -h          untuk memunculkan Commad yang bisa dilakukan" << endl;
+                cout << "Input Barang      -i          untuk memunculkan Commad yang bisa dilakukan" << endl;
+                cout << "Delete Barang     -d          untuk memunculkan Commad yang bisa dilakukan" << endl;
+                goto cmd; // lompat ke input command
             }
-            else if (command == "input")
+            else if (command == "input" || command == "-i")
             {
-                cout << "proses" << endl;
+                cout << "proses input" << endl;
             }
-            else if (command == "delete")
+            else if (command == "delete" || command == "d")
             {
-                cout << "proses1" << endl;
+                cout << "proses delete" << endl;
             }
         }
         else

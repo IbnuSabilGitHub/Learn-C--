@@ -1,9 +1,3 @@
 Seseorang gagal logi
 Anonim
 -------------------------- 
-Seseorang berhasil bersahil login
-Teridentifikasi sebgai Admin dengan Code Name = AdCo1
--------------------------- 
-Seseorang berhasil bersahil login
-Teridentifikasi sebgai Admin dengan Code Name = AdCo
--------------------------- 
