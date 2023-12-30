@@ -8,7 +8,7 @@ int main()
     int count = 0;
     cout << "Masukan banyak nilai : ";
     cin >> n;
-    int arr[n];
+    char arr[n];
 
     for (int i = 0; i < n; i++)
     {
@@ -16,18 +16,21 @@ int main()
         cin >> arr[i];
     }
 
-    for (int empat : arr)
+    for (char lima : arr)
     {
-        for (int tiga : arr)
+        for (char emapt : arr)
         {
-            for (int dua : arr)
+            for (char tiga : arr)
             {
-                for (int satu : arr)
+                for (char dua : arr)
                 {
-                    if (satu != 0)
+                    for (char satu : arr)
                     {
-                        cout << satu << dua << tiga << empat << endl;
-                        count++;
+                        if (lima != emapt && emapt != tiga && tiga != dua && dua != satu)
+                        {
+                            cout << lima << emapt << tiga << dua << satu <<endl;
+                            count ++;
+                        }
                     }
                 }
             }
